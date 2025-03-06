@@ -2,9 +2,9 @@
 
 const getPartnerText = (person) => {
     if (person.isMarried) {
-      if (person.gender === "m") {
+      if (person.sex === "m") {
         return `${person.partnerName} is my wife`;
-      } else if (person.gender === "f") {
+      } else if (person.sex === "f") {
         return `${person.partnerName} is my husband`;
       }
     }
